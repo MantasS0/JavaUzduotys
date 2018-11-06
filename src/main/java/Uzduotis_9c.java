@@ -9,7 +9,7 @@ public class Uzduotis_9c {
     //pusių tikrinant ar sutampa raidės.
 
     public static void main(String[] args) {
-        System.out.println("Iveskite sakini ar zodi, kuri norite patikrint ar tei palindromas.");
+        System.out.println("Iveskite sakini ar zodi, kuri norite patikrint ar tai palindromas.");
         String zodis = new Scanner(System.in).nextLine();
         if (ArPalindromas(zodis)) {
             System.out.println("Sakinys ar zodis yra palindromas.");
